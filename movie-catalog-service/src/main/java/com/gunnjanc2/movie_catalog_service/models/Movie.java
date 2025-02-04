@@ -1,4 +1,4 @@
-package com.gunnjanc2.movie_info_service.models;
+package com.gunnjanc2.movie_catalog_service.models;
 
 public class Movie {
 
@@ -6,11 +6,16 @@ public class Movie {
 	private String movieName;
 	
 	public Movie(String movieId, String movieName) {
-		super();
+		
 		this.movieId = movieId;
 		this.movieName = movieName;
 		
 	}
+	
+	public Movie() {
+		
+	}
+
 	public String getMovieId() {
 		return movieId;
 	}

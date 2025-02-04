@@ -1,11 +1,16 @@
-package com.gunnjanc2.ratings_data_service.models;
+package com.gunnjanc2.movie_catalog_service.models;
 
 public class Ratings {
 	
 	private String movieId;
 	private int movieRating;
+	
+	public Ratings() {
+		
+	}
+	
 	public Ratings(String movieId, int movieRating) {
-		super();
+		
 		this.movieId = movieId;
 		this.movieRating = movieRating;
 	}
